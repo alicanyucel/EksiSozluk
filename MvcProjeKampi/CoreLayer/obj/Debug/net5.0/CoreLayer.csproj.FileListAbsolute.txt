@@ -1,0 +1,12 @@
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\CoreLayer\bin\Debug\net5.0\CoreLayer.deps.json
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\CoreLayer\bin\Debug\net5.0\CoreLayer.dll
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\CoreLayer\bin\Debug\net5.0\CoreLayer.pdb
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\CoreLayer\obj\Debug\net5.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfo.cs
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\CoreLayer\obj\Debug\net5.0\CoreLayer.dll
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\CoreLayer\obj\Debug\net5.0\refint\CoreLayer.dll
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll

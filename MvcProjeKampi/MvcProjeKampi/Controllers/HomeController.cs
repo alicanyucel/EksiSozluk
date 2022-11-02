@@ -18,6 +18,11 @@ namespace MvcProjeKampi.Controllers
             _logger = logger;
         }
 
+        public IActionResult Contact()
+        {
+            return View();
+        }
+
         public IActionResult Index()
         {
             return View();
@@ -27,7 +32,10 @@ namespace MvcProjeKampi.Controllers
         {
             return View();
         }
-
+        public IActionResult Test()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
