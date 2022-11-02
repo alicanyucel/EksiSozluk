@@ -1,0 +1,8 @@
+Katmanlı Mimari
+Businees Layer=Validasyon işlemleri
+Entities Layer=Model sınıfları
+DataAcces Layer=Crud DbContext
+UI=Mvc veya Spa
+Api layer=Web Api
+Core Layer=Ortak Olan işlemlerin yapıldığı katman
+ n tier architecture don't repeat yourself
