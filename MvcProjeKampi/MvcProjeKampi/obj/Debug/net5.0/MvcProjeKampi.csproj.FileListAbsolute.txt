@@ -154,3 +154,5 @@ C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\bin\Debug\ne
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Shared\UserLayout.cshtml.g.cs
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Blog\Index.cshtml.g.cs
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Default\PartialView1.cshtml.g.cs
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Shared\Partial1.cshtml.g.cs
