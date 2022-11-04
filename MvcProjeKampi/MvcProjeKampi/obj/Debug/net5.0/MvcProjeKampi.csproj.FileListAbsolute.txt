@@ -22,7 +22,6 @@ C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\ne
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\MvcProjeKampi.TagHelpers.output.cache
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\MvcProjeKampi.RazorCoreGenerate.cache
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -113,8 +112,6 @@ C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\bin\Debug\ne
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Home\Test.cshtml.g.cs
-C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -158,3 +155,4 @@ C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\ne
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Shared\Partial1.cshtml.g.cs
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Shared\Partial2.cshtml.g.cs
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Shared\Partial3.cshtml.g.cs
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Blog\BlogDetails.cshtml.g.cs
