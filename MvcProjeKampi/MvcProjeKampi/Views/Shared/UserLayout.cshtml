@@ -1,15 +1,6 @@
 ﻿@{
     Layout = null;
 }
-
-
-<!--
-    Author: W3layouts
-    Author URL: http://w3layouts.com
-    License: Creative Commons Attribution 3.0 Unported
-    License URL: http://creativecommons.org/licenses/by/3.0/
--->
-
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -48,37 +39,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <i class="fab fa-linode"></i>Alİ CAN YÜCEL
                     </a>
                 </div>
-                <div class="col-md-4 top-forms text-center mt-lg-3 mt-md-1 mt-0">
-                    <span>HOŞGELDİNİZ</span>
-                    <span class="mx-lg-4 mx-md-2  mx-1">
-                        <a href="login.html">
-                            <i class="fas fa-lock"></i>GİRİŞ YAP
-                        </a>
-                    </span>
-                    <span>
-                        <a href="register.html">
-                            <i class="far fa-user"></i>KAYIT OL
-                        </a>
-                    </span>
-                </div>
-                <div class="col-md-4 log-icons text-right">
-
-                    <ul class="social_list1 mt-3">
-
-                        <li>
-                            <a href="https://www.facebook.com/alicanyucel06" class="facebook1 mx-2">
-                                <i class="fab fa-facebook-f"></i>
-
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/alicanycel1992" class="twitter2">
-                                <i class="fab fa-twitter"></i>
-
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                @await Html.PartialAsync("Partial2");
             </div>
         </div>
         @await Html.PartialAsync("Partial1")
@@ -98,107 +59,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     @RenderBody()
     <!--//main-->
     <!--footer-->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 footer-grid-agileits-w3ls text-left">
-                    <h3>Hakkımızda</h3>
-                    <p>Merhaba.Ben Ali Can Yücel.Selçuk Üniversitesi Bilgisayar Mühendisliği Bölümünden Mezunum. .Net Core Teknolojileri üzerinde Kendimi Geliştirmeye Çalışıyorum.</p>
-                    <div class="read">
-                        <a href="single.html" class="btn btn-primary read-m">DEVAMINI OKU</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 footer-grid-agileits-w3ls text-left">
-
-                    <div class="tech-btm">
-                        <h3>Geçmiş Gönderiler</h3>
-                        <div class="blog-grids row mb-3">
-                            <div class="col-md-5 blog-grid-left">
-                                <a href="single.html">
-                                    <img src="images/4.jpg" class="card-img-top img-fluid" alt="">
-                                </a>
-                            </div>
-                            <div class="col-md-7 blog-grid-right">
-
-                                <h5>
-                                    <a href="single.html">Pellentesque dui, non felis. Maecenas male non felis </a>
-                                </h5>
-                                <div class="sub-meta">
-                                    <span>
-                                        <i class="far fa-clock"></i>3 Ekim 2022
-                                    </span>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="blog-grids row mb-3">
-                            <div class="col-md-5 blog-grid-left">
-                                <a href="single.html">
-                                    <img src="images/5.jpg" class="card-img-top img-fluid" alt="">
-                                </a>
-                            </div>
-                            <div class="col-md-7 blog-grid-right">
-
-                                <h5>
-                                    <a href="single.html">Pellentesque dui, non felis. Maecenas male non felis </a>
-                                </h5>
-                                <div class="sub-meta">
-                                    <span>
-                                        <i class="far fa-clock"></i> 3 Kasım 2022
-                                    </span>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="blog-grids row mb-3">
-                            <div class="col-md-5 blog-grid-left">
-                                <a href="single.html">
-                                    <img src="images/6.jpg" class="card-img-top img-fluid" alt="">
-                                </a>
-                            </div>
-                            <div class="col-md-7 blog-grid-right">
-
-                                <h5>
-                                    <a href="single.html">Pellentesque dui, non felis. Maecenas male non felis </a>
-                                </h5>
-                                <div class="sub-meta">
-                                    <span>
-                                        <i class="far fa-clock"></i> 3 Kasım 2022
-                                    </span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <!-- subscribe -->
-                <div class="col-lg-4 subscribe-main footer-grid-agileits-w3ls text-left">
-                    <h2>Haber bültenimize kaydolun</h2>
-                    <div class="subscribe-main text-left">
-                        <div class="subscribe-form">
-                            <form action="#" method="post" class="subscribe_form">
-                                <input class="form-control" type="email" placeholder="Email Adresinizi Giriniz" required="">
-                                <button type="submit" class="btn btn-primary submit">Gönder</button>
-                            </form>
-                            <div class="clearfix"> </div>
-                        </div>
-                        <p>Gizliliğinize önem veriyoruz.</p>
-                    </div>
-                    <!-- //subscribe -->
-                </div>
-            </div>
-            <!-- footer -->
-            <div class="footer-cpy text-center">
-            </div>
-            <div class="w3layouts-agile-copyrightbottom">
-                <p>
-                    © 2022 ALİ CAN YÜCEL
-                </p>
-
-            </div>
-
-        </div>
-    </footer>
+    @await  Html.PartialAsync("Partial3");
     <!---->
     <!-- js -->
     <script src="~/web/js/jquery-2.2.3.min.js"></script>
