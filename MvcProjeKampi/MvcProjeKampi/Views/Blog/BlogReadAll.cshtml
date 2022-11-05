@@ -40,8 +40,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="col-lg-8 left-blog-info-w3layouts-agileits text-left">
                     @foreach (var item in Model)
                     {
-
-
                         <div class="blog-grid-top">
                             <div class="b-grid-top">
                                 <div class="blog_info_left_grid">
@@ -80,9 +78,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <a href="/Blog/Index" class="btn btn-primary read-m">Blog Lİstesi</a>
                         </div>
                     }
-                    @await Component.InvokeAsync("CommentList")
-                  @*  @await Html.PartialAsync("~/Views/Comment/CommentListByBlog.cshtml")*@
-                     @await Html.PartialAsync("~/Views/Comment/PartialAddComment.cshtml")
+
+                    @await Component.InvokeAsync("CommentListByBlog",new { id=ViewBag.i})
+                    @*  @await Html.PartialAsync("~/Views/Comment/CommentListByBlog.cshtml")*@
+                    @await Html.PartialAsync("~/Views/Comment/PartialAddComment.cshtml")
                 </div>
 
                 <!--//left-->
@@ -101,23 +100,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             </form>
 
                         </div>
-                        <div class="tech-btm">
-                            <h4>Kategoriler</h4>
-                            <ul class="list-group single">
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Cras justo odio
-                                    <span class="badge badge-primary badge-pill">14</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Dapibus ac facilisis in
-                                    <span class="badge badge-primary badge-pill">2</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Morbi leo risus
-                                    <span class="badge badge-primary badge-pill">1</span>
-                                </li>
-                            </ul>
-                        </div>
+                        @await Component.InvokeAsync("CategoryList");
                         <div class="tech-btm">
                             <h4>En çok Okunan Gönderiler</h4>
 
