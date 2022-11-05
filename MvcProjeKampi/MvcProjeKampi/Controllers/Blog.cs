@@ -12,9 +12,10 @@ namespace MvcProjeKampi.Controllers
             var values = bm.GetBlockWithCategory();
             return View(values);
         }
-        public IActionResult BlogDetails(int id)
+        public IActionResult BlogReadAll(int id)
         {
-            return View();
+            var values = bm.GetBlogById(id);
+            return View(values);
         }
     }
 }
