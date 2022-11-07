@@ -78,7 +78,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <a href="/Blog/Index" class="btn btn-primary read-m">Blog Lİstesi</a>
                         </div>
                     }
-
+                
                     @await Component.InvokeAsync("CommentListByBlog",new { id=ViewBag.i})
                     @*  @await Html.PartialAsync("~/Views/Comment/CommentListByBlog.cshtml")*@
                     @await Html.PartialAsync("~/Views/Comment/PartialAddComment.cshtml")
@@ -94,7 +94,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="tech-btm">
                             <h4>Haber bültenimize kaydolun</h4>
                             <p>Pellentesque dui, non felis. Maecenas male </p>
-                            <form action="#" method="post">
+                        ""    <form action="#" method="post">
                                 <input type="email" placeholder="Email" required="">
                                 <input type="submit" value="Abone Olun">
                             </form>
@@ -102,8 +102,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </div>
                         @await Component.InvokeAsync("CategoryList");
                         <div class="tech-btm">
-                            <h4>En çok Okunan Gönderiler</h4>
-
+                            <h4>Yazarın Diğer Yazıları</h4>
                             <div class="blog-grids row mb-3">
                                 <div class="col-md-5 blog-grid-left">
                                     <a href="single.html">
