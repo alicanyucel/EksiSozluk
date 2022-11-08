@@ -86,9 +86,10 @@ namespace DataAccessLayer.Migrations
                     BlogContent = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     BlogTumbnailImage = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     BlogImage = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    BlogCreateDate = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    BlogCreateDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     BlogStatus = table.Column<bool>(type: "bit", nullable: false),
-                    CategoryId = table.Column<int>(type: "int", nullable: false)
+                    CategoryId = table.Column<int>(type: "int", nullable: false),
+                    WriterId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -98,6 +99,12 @@ namespace DataAccessLayer.Migrations
                         column: x => x.CategoryId,
                         principalTable: "Categories",
                         principalColumn: "CategoryId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Blogs_Writers_WriterId",
+                        column: x => x.WriterId,
+                        principalTable: "Writers",
+                        principalColumn: "WriterId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -131,6 +138,11 @@ namespace DataAccessLayer.Migrations
                 column: "CategoryId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Blogs_WriterId",
+                table: "Blogs",
+                column: "WriterId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Comments_BlogId",
                 table: "Comments",
                 column: "BlogId");
@@ -148,13 +160,13 @@ namespace DataAccessLayer.Migrations
                 name: "Contacts");
 
             migrationBuilder.DropTable(
-                name: "Writers");
-
-            migrationBuilder.DropTable(
                 name: "Blogs");
 
             migrationBuilder.DropTable(
                 name: "Categories");
+
+            migrationBuilder.DropTable(
+                name: "Writers");
         }
     }
 }

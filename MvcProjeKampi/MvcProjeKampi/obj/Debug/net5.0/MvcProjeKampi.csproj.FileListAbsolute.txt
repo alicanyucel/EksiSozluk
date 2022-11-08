@@ -167,3 +167,6 @@ C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\bin\Debug\ne
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\MvcProjeKampi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Shared\Components\WriterLastBlog\Default.cshtml.g.cs
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\NewsLetter\SubscribeMail.cshtml.g.cs
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\ErrorPage\Error1.cshtml.g.cs
