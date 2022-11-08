@@ -8441,9 +8441,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Alican\\source\\Repos\\EksiSozluk\\MvcProjeKampi\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\BusinessLayer\\BusinessLayer.csproj",
+      "projectPath": "C:\\Users\\Alican\\source\\Repos\\EksiSozluk\\MvcProjeKampi\\BusinessLayer\\BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\Alican\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
@@ -8466,11 +8466,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\Alican\\source\\Repos\\EksiSozluk\\MvcProjeKampi\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\Alican\\source\\Repos\\EksiSozluk\\MvcProjeKampi\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj"
+            "C:\\Users\\Alican\\source\\Repos\\EksiSozluk\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\Alican\\source\\Repos\\EksiSozluk\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }

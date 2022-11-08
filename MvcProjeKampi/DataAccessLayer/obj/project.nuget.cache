@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qb5rdunEjAasOr34KDqlaBqdAMGl3VRQupJlXiamTe1hdzIEIz4PE7xDtl1qEEREFmmLWZqBzE4ZkH5ZTpRUQg==",
+  "dgSpecHash": "oGcurzG8V8V04Jvnw8XB3gCClG1TJ99Hn3eXkfUMWtrCapphRbb8ABC8Ey/GmN1K4YtFxVuGk+/0ZD3u/EjuZg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\DataAccessLayer\\DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\Alican\\source\\Repos\\EksiSozluk\\MvcProjeKampi\\DataAccessLayer\\DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alican\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
