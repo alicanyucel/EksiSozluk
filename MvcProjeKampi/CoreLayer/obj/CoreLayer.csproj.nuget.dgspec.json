@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alican\\source\\Repos\\EksiSozluk\\MvcProjeKampi\\CoreLayer\\CoreLayer.csproj": {}
+    "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\CoreLayer\\CoreLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alican\\source\\Repos\\EksiSozluk\\MvcProjeKampi\\CoreLayer\\CoreLayer.csproj": {
+    "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\CoreLayer\\CoreLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alican\\source\\Repos\\EksiSozluk\\MvcProjeKampi\\CoreLayer\\CoreLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\CoreLayer\\CoreLayer.csproj",
         "projectName": "CoreLayer",
-        "projectPath": "C:\\Users\\Alican\\source\\Repos\\EksiSozluk\\MvcProjeKampi\\CoreLayer\\CoreLayer.csproj",
+        "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\CoreLayer\\CoreLayer.csproj",
         "packagesPath": "C:\\Users\\Alican\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\CoreLayer\\obj\\",
         "projectStyle": "PackageReference",

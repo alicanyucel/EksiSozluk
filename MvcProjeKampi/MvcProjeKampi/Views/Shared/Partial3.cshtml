@@ -8,7 +8,7 @@
                 <h3>Hakkımızda</h3>
                 <p>Merhaba.Ben Ali Can Yücel.Selçuk Üniversitesi Bilgisayar Mühendisliği Bölümünden Mezunum. .Net Core Teknolojileri üzerinde Kendimi Geliştirmeye Çalışıyorum.C# Programlama Dili Kullanarak Web Api,Web Servis, .Net Core Mvc,Masaüstü Projeler Geliştiriyorum.Database Sistemi Olarak Mssql Kullanıyorum.</p>
                 <div class="read">
-                    <a href="single.html" class="btn btn-primary read-m">DEVAMINI OKU</a>
+                    <a href="~/About/Index" class="btn btn-primary read-m">DEVAMINI OKU</a>
                 </div>
             </div>
             <div class="col-lg-4 footer-grid-agileits-w3ls text-left">
@@ -77,17 +77,9 @@
             <!-- subscribe -->
             <div class="col-lg-4 subscribe-main footer-grid-agileits-w3ls text-left">
                 <h2>Haber bültenimize kaydolun</h2>
-                <div class="subscribe-main text-left">
-                    <div class="subscribe-form">
-                        <form action="#" method="post" class="subscribe_form">
-                            <input class="form-control" type="email" placeholder="Email Adresinizi Giriniz" required="">
-                            <button type="submit" class="btn btn-primary submit">Gönder</button>
-                        </form>
-                        <div class="clearfix"> </div>
-                    </div>
-                    <p>Gizliliğinize önem veriyoruz.</p>
-                </div>
-                <!-- //subscribe -->
+                @await Html.PartialAsync("~/Views/NewsLetter/SubscribeMail.cshtml")
+
+                 
             </div>
         </div>
         <!-- footer -->

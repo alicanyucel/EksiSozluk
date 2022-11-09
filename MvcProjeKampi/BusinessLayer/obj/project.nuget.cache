@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iuKlcs8FAzvve6wsxjdIkNcFFuQbFrYy49yPrwi4b/e82DdHoYmEYMQ9KEV+qb63n62O+7QqkPbiM6gsYVWnNw==",
+  "dgSpecHash": "W5UoSyJn/23RrnC3+v7s8FpaaVOoIFrSdwx6wROOAjBdrVQc6s7FWpNX2v4p8PnBAsWwGZLIoC2XPPN9po7Zwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alican\\source\\Repos\\EksiSozluk\\MvcProjeKampi\\BusinessLayer\\BusinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alican\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
