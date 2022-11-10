@@ -1,9 +1,11 @@
 ﻿using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFrameWork;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MvcProjeKampi.Controllers
 {
+    [AllowAnonymous]
     public class Blog : Controller
     {
         BlogManager bm = new BlogManager(new EfBlogRepository()); 
@@ -18,5 +20,6 @@ namespace MvcProjeKampi.Controllers
             var values = bm.GetBlogById(id);
             return View(values);
         }
+        
     }
 }
