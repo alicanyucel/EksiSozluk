@@ -20,17 +20,17 @@ namespace BusinessLayer.Concrete
 
         public void BlogAdd(Blog blog)
         {
-
+           throw new NotImplementedException();
         }
 
         public void BlogDelete(Blog blog)
         {
-
+            _blogdal.Delete(blog);
         }
 
         public void BlogUpdate(Blog blog)
         {
-            throw new NotImplementedException();
+            _blogdal.Update(blog);
         }
 
         public List<Blog> GetBlockWithCategory()
@@ -64,17 +64,17 @@ namespace BusinessLayer.Concrete
 
         public void TAdd(Blog t)
         {
-            throw new NotImplementedException();
+            _blogdal.Insert(t);
         }
 
         public void TDelete(Blog t)
         {
-            throw new NotImplementedException();
+            _blogdal.Delete(t);
         }
 
         public void TUpdate(Blog t)
         {
-            throw new NotImplementedException();
+            _blogdal.Update(t);
         }
     }
 }
