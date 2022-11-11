@@ -21,7 +21,10 @@ namespace BusinessLayer.Concrete
         {
             throw new NotImplementedException();
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public List<About> GetList()
         {
             return _aboutDal.GetListAll();
