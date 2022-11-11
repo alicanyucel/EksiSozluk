@@ -20,6 +20,11 @@ namespace MvcProjeKampi.Controllers
             var values = bm.GetBlogById(id);
             return View(values);
         }
+        public IActionResult BlogListByWriter()
+        {
+            var values= bm.GetBlogListByWriter(1);
+            return View(values);
+        }
         
     }
 }

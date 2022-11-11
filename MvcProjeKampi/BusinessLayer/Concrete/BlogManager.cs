@@ -39,7 +39,7 @@ namespace BusinessLayer.Concrete
         }
         public List<Blog> GetBlogById(int id)
         {
-            return _blogdal.GetListAll(x => x.BlogId == id);
+            throw new NotImplementedException();
         }
 
         public List<Blog> GetBlogListByWriter(int id)
@@ -60,6 +60,21 @@ namespace BusinessLayer.Concrete
         {
             // take parametre de belitirilen kadar kayıt getirir
             return _blogdal.GetListAll().Take(3).ToList();
-         } 
+         }
+
+        public void TAdd(Blog t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void TDelete(Blog t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void TUpdate(Blog t)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

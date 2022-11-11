@@ -19,5 +19,20 @@ namespace MvcProjeKampi.Controllers
         {
             return View();
         }
+        [AllowAnonymous]
+        public IActionResult Test()
+        {
+            return View();
+        }
+        [AllowAnonymous]
+        public IActionResult WriterNavbarPartial()
+        {
+            return PartialView();
+        }
+        [AllowAnonymous]
+        public IActionResult WriterFooterPartial()
+        {
+            return PartialView();
+        }
     }
 }
