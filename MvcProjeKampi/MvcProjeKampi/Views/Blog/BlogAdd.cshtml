@@ -1,4 +1,6 @@
-﻿@model EntityLayer.Concrete.Blog
+﻿@using System.Reflection
+@model EntityLayer.Concrete.Blog
+
 @{
     ViewData["Title"] = "BlogAdd";
     Layout = "~/Views/Writer/WriterLayout.cshtml";
@@ -22,7 +24,7 @@
     @Html.TextBoxFor(x=>x.CategoryId,new {@class="form-control"})
     <br />
     @Html.Label("Blog İçeriği");
-    @Html.TextAreaFor(x=>x.BlogContent,15,3,new {@class="form-control"})
+    @Html.DropDownListFor(x=>x.CategoryId,(List<SelectListItem>)ViewBag.cv,new {@class="form-control"});
     <br />
     <button class="btn btn-info">Yazıyı Kaydet</button>
 }

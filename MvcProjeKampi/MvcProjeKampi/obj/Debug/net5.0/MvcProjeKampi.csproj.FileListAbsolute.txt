@@ -185,3 +185,4 @@ C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\ne
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Shared\Components\WriterNotification\Default.cshtml.g.cs
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Blog\BlogListByWriter.cshtml.g.cs
 C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Blog\BlogAdd.cshtml.g.cs
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Blog\EditBlog.cshtml.g.cs
