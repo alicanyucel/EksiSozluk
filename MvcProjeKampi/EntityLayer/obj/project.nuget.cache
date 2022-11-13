@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4sz4xlfpIrQEqUKA/F++NSDAY65eFWyvb1dLvmCt8LhlflpK3cDQpf/xe/+AwKQFQExAkUC0PQ1hhUaWBtoaWA==",
+  "dgSpecHash": "0Aj7GY4HeM7bmzw1ccFAS1POsdxyBNPiV0gaV1EKfhXWp5kVGaQp4Ofcg996QePvR5geqr4KN9pnuMETdde4ZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj",
+  "projectFilePath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukttt\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alican\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
