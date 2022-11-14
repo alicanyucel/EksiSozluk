@@ -1,31 +1,36 @@
-﻿@using System.Reflection
-@model EntityLayer.Concrete.Blog
+﻿@model EntityLayer.Concrete.Blog
 
 @{
     ViewData["Title"] = "BlogAdd";
-    Layout = "~/Views/Writer/WriterLayout.cshtml";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
 }
-<h1>Yeni Blog Girişi</h1>
-@using(Html.BeginForm("BlogAdd","Blog",FormMethod.Post))
-{
-    @Html.Label("Blog Başlığı");
-    @Html.TextBoxFor(x=>x.BlogTitle,new {@class="form-control"})
-    @Html.ValidationMessageFor(x=>x.BlogTitle)
-    <br /> 
-    @Html.Label("Blog Görseli");
-    @Html.TextBoxFor(x=>x.BlogImage,new {@class="form-control"})
-    @Html.ValidationMessageFor(x=>x.BlogImage)
-    <br /> 
-    @Html.Label("Blog Küçük Resmi");
-    @Html.TextBoxFor(x=>x.BlogTumbnailImage,new {@class="form-control"})
-    @Html.ValidationMessageFor(x=>x.BlogTumbnailImage)
-    <br />
-     @Html.Label("Kategori");
-    @Html.TextBoxFor(x=>x.CategoryId,new {@class="form-control"})
-    <br />
-    @Html.Label("Blog İçeriği");
-    @Html.DropDownListFor(x=>x.CategoryId,(List<SelectListItem>)ViewBag.cv,new {@class="form-control"});
-    <br />
-    <button class="btn btn-info">Yazıyı Kaydet</button>
-}
+<h1>Blog Ekleme Sayfası</h1>
+<br />
 
+@using (Html.BeginForm("BlogAdd", "Blog", FormMethod.Post))
+{
+    @Html.Label("Blog Başlığını Giriniz")
+    @Html.TextBoxFor(x => x.BlogTitle, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.BlogTitle, "", new { @class = "text-success" })
+    <br />
+    <br />
+    @Html.Label("Blog Görselini Giriniz")
+    @Html.TextBoxFor(x => x.BlogImage, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.BlogImage, "", new { @class = "text-success" })
+    <br />
+    <br />
+    @Html.Label("Blog Küçük Görselini Giriniz")
+    @Html.TextBoxFor(x => x.BlogTumbnailImage, new { @class = "form-control" })
+    <br />
+    <br />
+    @Html.Label("Kategorisini Giriniz")
+    @Html.DropDownListFor(x => x.CategoryId , (List<SelectListItem>) ViewBag.cv, new {@class = "form-control" })
+    <br />
+    <br />
+    @Html.Label("Blog İçeriğini Giriniz!")
+    @Html.TextAreaFor(x => x.BlogContent, 15, 3, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.BlogContent, "", new { @class = "text-success" })
+    <br />
+    <br />
+    <button class="btn btn-outline-success">Kaydet</button>
+}

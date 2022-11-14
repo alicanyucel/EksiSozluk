@@ -374,3 +374,6 @@ C:\Users\Alican\Source\Repos\EksiSozlukttt\MvcProjeKampi\MvcProjeKampi\obj\Debug
 C:\Users\Alican\Source\Repos\EksiSozlukttt\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\MvcProjeKampi.pdb
 C:\Users\Alican\Source\Repos\EksiSozlukttt\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\MvcProjeKampi.genruntimeconfig.cache
 C:\Users\Alican\Source\Repos\EksiSozlukttt\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\ref\MvcProjeKampi.dll
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Shared\Components\BlogListDashboard\Default.cshtml.g.cs
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\Alican\Source\Repos\EksiSozluk\MvcProjeKampi\MvcProjeKampi\obj\Debug\net5.0\Razor\Views\Shared\WriterLayout.cshtml.g.cs
