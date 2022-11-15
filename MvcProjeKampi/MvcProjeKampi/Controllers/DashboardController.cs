@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MvcProjeKampi.Controllers
 {
+    //hatalar düzeltildi.
     [AllowAnonymous]
     public class DashboardController : Controller
     {
