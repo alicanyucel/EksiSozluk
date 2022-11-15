@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7iRExS5a1fb+TkDS/cUFxmailQCPSBjf/MK4MD7Fugu/gfBAY8i3uof44++n+gLLzjufWQQk88CyhqC7OlOQrA==",
+  "dgSpecHash": "zX+fVddXs2SyejQ4GFVEbba803BauoewiYR4p38AVUcqg/BnHJUS4c3Wmo4p7LEgBg5AyhrcMxNnpsAbSQ14Xg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\MvcProjeKampi\\MvcProjeKampi.csproj",
+  "projectFilePath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\MvcProjeKampi\\MvcProjeKampi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alican\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
