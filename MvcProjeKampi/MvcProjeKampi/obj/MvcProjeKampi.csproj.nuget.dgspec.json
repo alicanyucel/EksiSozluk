@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\MvcProjeKampi\\MvcProjeKampi.csproj": {}
+    "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\MvcProjeKampi\\MvcProjeKampi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\Alican\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,21 +22,21 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -48,8 +48,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "FluentValidation.AspNetCore": {
               "target": "Package",
@@ -66,7 +66,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -75,18 +76,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\Alican\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,18 +98,18 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -120,8 +121,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "FluentValidation.AspNetCore": {
               "target": "Package",
@@ -158,7 +159,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -167,18 +169,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\Alican\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -189,15 +191,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -208,8 +210,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "FluentValidation.AspNetCore": {
               "target": "Package",
@@ -226,7 +228,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -235,18 +238,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\MvcProjeKampi\\MvcProjeKampi.csproj": {
+    "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\MvcProjeKampi\\MvcProjeKampi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\MvcProjeKampi\\MvcProjeKampi.csproj",
+        "projectUniqueName": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\MvcProjeKampi\\MvcProjeKampi.csproj",
         "projectName": "MvcProjeKampi",
-        "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\MvcProjeKampi\\MvcProjeKampi.csproj",
+        "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\MvcProjeKampi\\MvcProjeKampi.csproj",
         "packagesPath": "C:\\Users\\Alican\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\MvcProjeKampi\\obj\\",
+        "outputPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\MvcProjeKampi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -257,24 +260,24 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozlukPro\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Alican\\Source\\Repos\\EksiSozluk\\MvcProjeKampi\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -286,8 +289,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "FluentValidation": {
               "target": "Package",
@@ -336,7 +339,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -348,7 +352,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
